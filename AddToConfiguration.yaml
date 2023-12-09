@@ -1,0 +1,10 @@
+mqtt:
+  sensor:
+    - name: "Room Temperature"
+      state_topic: "openhab/sensor/temperature"
+    - name: "Room Humidity"
+      state_topic: "openhab/sensor/humidity"
+    - name: "Soil Moisture"
+      state_topic: "openhab/sensor/soil_moisture"
+    - name: "RelayStatus"
+      state_topic: "openhab/relay/status"
